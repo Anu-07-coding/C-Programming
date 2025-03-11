@@ -62,3 +62,105 @@ int main() {
 
 <img width="338" alt="string handling1" src="https://github.com/user-attachments/assets/95f36fcd-24d4-4ee9-8cf3-94cbb89ef423" />
 <img width="389" alt="string handling" src="https://github.com/user-attachments/assets/828edf1e-31c2-46c3-ac0e-38db2e7aa1d6" />
+
+Errors
+
+<html>
+<head>
+<title>Errors</title>
+<link rel="stylesheet" href="design.css" type="text/css">
+</head>
+
+<body>
+        <h1>Errors</h1>
+    </header>
+    <h2>Code</h2>
+    <hr>
+    <h2> Syntax Error</h2>
+    <pre>
+        #include <stdio.h>
+
+            int main() {
+               print ("Hello World");
+            }
+            
+            </pre>
+    <h2>Output</h2>
+    <hr>
+    <img src="syntax.png" alt="Output of the code" width= 500 height=100>
+
+    </pre>
+    <h2> Runtime Error</h2>
+    <hr>
+    <pre>
+        #include <stdio.h>
+                int main() {
+                 int a;
+                 a=2/0;
+                 printf ("%d",a);
+                }
+                
+            </pre>
+    <h2>Output</h2>
+    <hr>
+    <img src="runtime.png" alt="Output of the code" width= 500 height=100>
+
+    </pre>
+    <h2> Logical Error</h2>
+    <hr>
+    <pre>
+       
+        #include <stdio.h>
+
+            int main() {
+           int a=1,b=4;
+           int sum;
+           sum= a-b;
+           printf("Sum: %d",sum);
+            }
+
+            </pre>
+    <h2>Output</h2>
+    <hr>
+    <img src="logical.png" alt="Output of the code" width= 500 height=100>
+
+    </pre>
+    <h2> Semantics Error</h2>
+    <hr>
+    <pre>
+        #include <stdio.h>
+
+            int main() {
+                int a = 0;
+                2 = a;
+                printf ("%d",a);
+                        }
+            
+            
+            </pre>
+    <h2>Output</h2>
+    <hr>
+    <img src="semantic.png" alt="Output of the code" width= 500 height=100>
+
+    </pre>
+    <h2> Linker Error</h2>
+    <hr>
+    <pre>
+        #include<stdio.h>
+            main() {
+                int x = 52;
+                int y = 0;
+                printf("Div : %f", x/y);
+            }
+            </pre>
+    <h2>Output</h2>
+    <hr>
+    <img src="linker.png" alt="Output of the code" width= 300 height=20>
+
+    </pre>
+</body 
+</html>
+
+<img width="554" alt="e1" src="https://github.com/user-attachments/assets/481221bb-67c2-4597-9673-683b9b512779" />
+<img width="551" alt="e2" src="https://github.com/user-attachments/assets/a5e392b4-a0d2-4541-b0b6-58d0f0bf108f" />
+<img width="551" alt="e3" src="https://github.com/user-attachments/assets/d5524136-c034-41c9-8834-843c5c0e8d47" />
